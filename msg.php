@@ -58,7 +58,7 @@
         <input type='text' placeholder='Password' class='textbox' id="passwd">
         <button id="decryptBtn" class="button2">Decrypt</button>
         <p><textarea id="msgBox" class='textbox textarea'><? echo $msg; ?></textarea></p>
-         <div id="footer"><a href="index.php">Home</a> | <a href="disclaimer.php">Disclaimer</a> | <a href="privacy.php">Privacy</a> | <a href="http://github.com">Github</a></div> 
+         <div id="footer"><a href="index.php">Home</a> | <a href="disclaimer.php">Disclaimer</a> | <a href="privacy.php">Privacy</a> | <a href="https://github.com/Slaughter/SlaughterMessage">Github</a></div> 
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/aes.js"></script>

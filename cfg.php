@@ -18,5 +18,5 @@
     $website_name = "Slaughter Message";
 
     // Host name
-    $website_hostname = "http://127.0.0.1/enc";
+    $website_hostname = "http://127.0.0.1/SlaughterMessage";
 ?>
