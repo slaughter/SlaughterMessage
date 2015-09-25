@@ -9,7 +9,7 @@
     </head>
     <body>
         <h1><a href="index.php"><?php echo $website_name; ?></a></h1>
-        <div id="notifyBad">This website may not be the most secure thing in the world. While I tried my best to make it as private/secure as possible, I am still very new to website development so some things may have been over looked.></div>
+        <div id="notifyBad">This website may not be the most secure thing in the world. While I tried my best to make it as private/secure as possible, I am still very new to website development so some things may have been over looked.</div>
         <p><?php echo $website_name; ?> is used to privately send messages online. Each message is encrypted using <a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard">AES</a> encryption and <a href="https://code.google.com/p/crypto-js/">CryptoJS</a>. Only the encrypted message is stored and is deleted once viewed.</p>
          <?php
             if(isset($_POST['message']))
